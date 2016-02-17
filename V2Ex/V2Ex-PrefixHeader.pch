@@ -1,0 +1,34 @@
+//
+//  V2Ex-PrefixHeader.pch
+//  V2Ex
+//
+//  Created by George She on 16/2/17.
+//  Copyright © 2016年 Freedom. All rights reserved.
+//
+
+#ifndef V2Ex_PrefixHeader_pch
+#define V2Ex_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "NimbusModels.h"
+#import "NimbusCore.h"
+#import "MBProgressHUD.h"
+#import "JsonModel.h"
+#import "masonry.h"
+#import "NIActions.h"
+#import "NICellFactory.h"
+#import "XWindowStack.h"
+#import "UIColor+Extents.h"
+#import "NSString+Extents.h"
+#import "FDFontMacro.h"
+#import "FDViewController.h"
+#import "FDTableViewController.h"
+#import "FDWebViewController.h"
+
+#define WIDTH(v) (v).frame.size.width
+#define HEIGHT(v) (v).frame.size.height
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* V2Ex_PrefixHeader_pch */
